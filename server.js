@@ -15,3 +15,9 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
+
+// {
+//   "username": "Lernantino",
+// 	"email": "lernantino@gmail.com", 
+// 	"password": "password1234"
+// }
